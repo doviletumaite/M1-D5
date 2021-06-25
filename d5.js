@@ -22,6 +22,16 @@ console.log(result)
 /* EXERCISE 2
 Write a function "crazySum" which receives two integers. It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
+let int1 = 3
+let int2 = 6
+
+const crazySum = function (int1, int2) {
+    if (int1 === int2) {
+        let result1 = (int1 + int2) * 3
+    } return int1 + int2 
+}
+
+const result1 = crazySum (int1, int2)
 
 /* EXERCISE 3
 Write a function "crazyDiff" that computes the absolute difference between a given number and 19. 
