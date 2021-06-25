@@ -59,7 +59,7 @@ let e = 100
 let f = 400
 const boundary = function (n) {
     if (e >= n && d <=n || n === f ) {
-        let result4 = ((e >= n && d <=n) || n === f)
+        let result4  
     } return n
  }       
   const result4 = boundary (n)
