@@ -32,11 +32,22 @@ const crazySum = function (int1, int2) {
 }
 
 const result1 = crazySum (int1, int2)
+console.log(result1)
 
 /* EXERCISE 3
 Write a function "crazyDiff" that computes the absolute difference between a given number and 19. 
 It should return triple their absolute difference if the given number is greater than 19.
 */
+let a = 19
+let b = 20
+
+const crazyDiff = function (a, b){
+    if (!(a === b)) {
+        let result3 = (b - a) * 3
+    } return b - a
+}
+const result3 = crazyDiff (a, b)
+console.log(result3)
 
 /* EXERCISE 4
 Write a function "boundary" which accept an integer n and returns true if n is within 20 and 100 (included) or if it's equal to 400.
