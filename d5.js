@@ -53,6 +53,18 @@ console.log(result3)
 Write a function "boundary" which accept an integer n and returns true if n is within 20 and 100 (included) or if it's equal to 400.
 */
 
+let n = 45
+let d = 20
+let e = 100
+let f = 400
+const boundary = function (n) {
+    if (e >= n && d <=n || n === f ) {
+        let result4  
+    } return n
+ }       
+  const result4 = boundary (n)
+  console.log(result4)   
+
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 5
