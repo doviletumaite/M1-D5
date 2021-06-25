@@ -39,10 +39,10 @@ Write a function "crazyDiff" that computes the absolute difference between a giv
 It should return triple their absolute difference if the given number is greater than 19.
 */
 let a = 19
-let b = 20
+let b = 29
 
 const crazyDiff = function (a, b){
-    if (!(a === b)) {
+    if (b > a) {
         let result3 = (b - a) * 3
     } return b - a
 }
